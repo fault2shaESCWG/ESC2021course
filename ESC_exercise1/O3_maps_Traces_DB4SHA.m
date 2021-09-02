@@ -23,7 +23,7 @@ latlim=([41.6 43.1]);
 lonlim=([12.7 14.3]);
 
 % make output directory
-pathout1 = fullfile('WORKING_DIRECTORY_ESC_excercise','Visualization','figure');
+pathout1 = fullfile('WORKING_DIRECTORY_ESC_exercise','Visualization','figure');
 %pathout1 = fullfile('WORKING_DIRECTORY_A2B2C2_10km','Visualization','figure');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if isdir(pathout1)==0
