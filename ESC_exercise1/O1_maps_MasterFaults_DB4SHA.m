@@ -17,7 +17,7 @@ warning('off','all')
 addpath ('INPUT/','INPUT/mainFaults_lonlat/')
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% make output directory
-pathout1 = fullfile('WORKING_DIRECTORY_A1B1C1_10km','Visualization','figure');
+pathout1 = fullfile('WORKING_DIRECTORY_ESC_excercise','Visualization','figure');
 %pathout1 = fullfile('WORKING_DIRECTORY_A2B2C2_10km','Visualization','figure');
 
 list = {'FucinoOvindoliPezza','FucinoMagnola','Magnola','OvindoliPezza',...
@@ -75,6 +75,8 @@ R = mainfault_selection;
 display ('You have selected the following main fault options')
 R(~cellfun('isempty',R))
 
+T = R(~cellfun('isempty',R));
+outname = strcat(T(1),T(2),T(3));
 
 [fault_data,mainfault_names,~] = xlsread ('Fault2SHA_CentralApennines_Database_2021_v1_xls2013.xlsx','Fault');
 [mainfault_data,mainfault_names2,~] = xlsread ('Fault2SHA_CentralApennines_Database_2021_v1_xls2013.xlsx','MainFault');
@@ -332,5 +334,5 @@ for iL = 1 : length(plabelpos)                                           % loop 
 end
 
 
-saveas(1,fullfile(pathout1,'Maps_DB4SHA.png'),'tiff')
-print(fullfile(pathout1,'Maps_DB4SHA.tiff'),'-dtiff','-r600');
+saveas(1,fullfile(pathout1,strcat('Maps_',char(outname),'DB4SHA.png')),'tiff')
+print(fullfile(pathout1,strcat('Maps_',char(outname),'DB4SHA.png')),'-dtiff','-r600');

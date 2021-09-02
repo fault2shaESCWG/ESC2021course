@@ -6,7 +6,9 @@ clear all
 clc
 close all
 warning('off','all')
+addpath ('INPUT/')
 addpath ('INPUT/','INPUT/MainFaults_lonlat/')
+
 addpath ('SHAPEFILES/')
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% USER OPTIONS
@@ -21,7 +23,7 @@ latlim=([41.6 43.1]);
 lonlim=([12.7 14.3]);
 
 % make output directory
-pathout1 = fullfile('WORKING_DIRECTORY_A1B1C1_10km','Visualization','figure');
+pathout1 = fullfile('WORKING_DIRECTORY_ESC_excercise','Visualization','figure');
 %pathout1 = fullfile('WORKING_DIRECTORY_A2B2C2_10km','Visualization','figure');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if isdir(pathout1)==0
@@ -37,11 +39,12 @@ input_traces = shaperead('traces.shp');
 traceName = {input_traces.traceName}';
 TraceActivity = [input_traces.traceActiv]';
 % read the DB-excel format
-[fault_data,Mainfault_names,~] = xlsread ('Fault2SHA_CentralApennines_Database.xlsx','Fault');
-[Mainfault_data,Mainfault_names2,~] = xlsread ('Fault2SHA_CentralApennines_Database.xlsx','MainFault');
 
-[sliprate_data,sliprate_TXT5,~] = xlsread ('Fault2SHA_CentralApennines_Database.xlsx','SlipRate');
-[localgeomKin_data,localgeomKin_TXT6,~] = xlsread ('Fault2SHA_CentralApennines_Database.xlsx','LocalGeometryKinematics');
+[fault_data,Mainfault_names,~] = xlsread ('Fault2SHA_CentralApennines_Database_2021_v1_xls2013.xlsx','Fault');
+[Mainfault_data,Mainfault_names2,~] = xlsread ('Fault2SHA_CentralApennines_Database_2021_v1_xls2013.xlsx','MainFault');
+
+[sliprate_data,sliprate_TXT5,~] = xlsread ('Fault2SHA_CentralApennines_Database_2021_v1_xls2013.xlsx','SlipRate');
+[localgeomKin_data,localgeomKin_TXT6,~] = xlsread ('Fault2SHA_CentralApennines_Database_2021_v1_xls2013.xlsx','LocalGeometryKinematics');
 
 % number of traces in the DB
 n_traces = size(traceName,1);
