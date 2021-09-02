@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="20200520">
+<characteristicFaultSource id="59" name="ModelMultiFaultsTest_scenario_f_1=['CerchioPescinaParasano_2']_f_2=['CerchioPescinaParasano_3']_f_3=['FucinoOvindoliPezza_3']" tectonicRegion="Active_Shallow_Crust">
+     <surface>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.6215      42.0454
+       13.6754      42.0115
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.6754      42.0115
+       13.7246      41.9784
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.5609      42.0598
+       13.6374      41.9897
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     </surface>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.3215314430087525e-05 9.355726140091205e-06 3.3116734403650367e-06 0.0 3.3195369005069502e-06 3.525078232232235e-06 8.31854758044356e-07 1.7667242075321722e-06</occurRates>
+       </incrementalMFD>
+</characteristicFaultSource>
+   </sourceModel>
+   </nrml>

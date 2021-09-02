@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="20200520">
+<characteristicFaultSource id="29" name="ModelMultiFaultsTest_scenario_f_1=['CerchioPescinaParasano_2']_f_2=['FucinoOvindoliPezza_4']" tectonicRegion="Active_Shallow_Crust">
+     <surface>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.6215      42.0454
+       13.6754      42.0115
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.6374      41.9897
+       13.7317      41.9377
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     </surface>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.91909225371511e-05 9.057421805745807e-06 3.2060817923833655e-06 4.539464178617029e-06 1.60684726430737e-06 0.0 8.053313352597665e-07 1.1402618476592048e-06 8.072435681443914e-07 5.714846810390334e-07</occurRates>
+       </incrementalMFD>
+</characteristicFaultSource>
+   </sourceModel>
+   </nrml>

@@ -1,0 +1,11 @@
+name	activityscale
+CampoFelice	1
+CerchioPescinaParasano	1
+FucinoOvindoliPezza	1
+Magnola	1
+MtMarsicano	1
+MtVelino	1
+SanSebastiano	1
+TreMonti	1
+ValleDelSalto	1
+Ventrino	2

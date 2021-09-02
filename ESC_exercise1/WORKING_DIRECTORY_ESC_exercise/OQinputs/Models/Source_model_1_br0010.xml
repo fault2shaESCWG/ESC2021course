@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="Source_model_1_21-Jul-2021">
+<simpleFaultSource id="11" name="ModelMultiFaultsTest_MtMarsicano_2" tectonicRegion="Active_Shallow_Crust">
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.7915      41.8455
+       13.8517      41.7914
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0013651199084786572 0.001220754801330099 0.0007922091974209807 0.0005863339417401865 0.0005053301732302716 0.0005366195487907167 0.0002532650315896716 0.00028175386084343813 0.0002493330725225843 0.00017972364846535863 0.00011587436720615335 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</occurRates>
+       </incrementalMFD>
+</simpleFaultSource>
+   </sourceModel>
+   </nrml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="20200520">
+<characteristicFaultSource id="47" name="ModelMultiFaultsTest_scenario_f_1=['MtVelino_3']_f_2=['TreMonti_1']" tectonicRegion="Active_Shallow_Crust">
+     <surface>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.352      42.1418
+       13.4032      42.1053
+       13.4284      42.0989
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.4451      42.0598
+       13.517      42.0812
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     </surface>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.00010921368772177169 5.352740987515907e-05 5.052600556016117e-05 4.471209079760714e-05 1.4771743555877649e-05 8.963651638617573e-06 0.0 1.1979914047886229e-05 2.1202824118713505e-06 1.8763062439851688e-06 2.65664619128588e-07</occurRates>
+       </incrementalMFD>
+</characteristicFaultSource>
+   </sourceModel>
+   </nrml>

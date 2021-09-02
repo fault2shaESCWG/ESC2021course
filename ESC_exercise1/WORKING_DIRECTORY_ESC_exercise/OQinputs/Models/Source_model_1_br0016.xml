@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="Source_model_1_21-Jul-2021">
+<simpleFaultSource id="17" name="ModelMultiFaultsTest_TreMonti_1" tectonicRegion="Active_Shallow_Crust">
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.4451      42.0598
+       13.517      42.0812
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0004114900747094144 0.000208080474076032 0.0001767716333217363 0.0001042872771740185 0.00011812758118439293 7.317443272911297e-05 8.880605344333094e-05 6.28698711629988e-05 4.4508460254619025e-05 4.989016327725296e-05 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</occurRates>
+       </incrementalMFD>
+</simpleFaultSource>
+   </sourceModel>
+   </nrml>

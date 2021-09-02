@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="Source_model_1_21-Jul-2021">
+<simpleFaultSource id="21" name="ModelMultiFaultsTest_Ventrino_1" tectonicRegion="Active_Shallow_Crust">
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.6277      42.0952
+       13.7159      42.0595
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.00045736922436094373 0.00016189630714668701 0.0 5.409357487554653e-05 1.9147659147705193e-05 1.355550457444231e-05 8.636906086808724e-05 4.7556920866606334e-05 1.4429023562487475e-05 2.0429932807684543e-05 1.4463284806451513e-05 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</occurRates>
+       </incrementalMFD>
+</simpleFaultSource>
+   </sourceModel>
+   </nrml>

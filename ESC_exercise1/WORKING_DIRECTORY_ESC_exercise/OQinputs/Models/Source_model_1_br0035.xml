@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="20200520">
+<characteristicFaultSource id="36" name="ModelMultiFaultsTest_scenario_f_1=['FucinoOvindoliPezza_3']_f_2=['FucinoOvindoliPezza_4']" tectonicRegion="Active_Shallow_Crust">
+     <surface>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.5609      42.0598
+       13.6374      41.9897
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.6374      41.9897
+       13.7317      41.9377
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+     </surface>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 6.500976615767048e-05 0.00016108186463292527 7.738240404088243e-05 3.7482795128488304e-05 1.428850058361798e-05 0.0 1.739151990902122e-05 3.6212509422424747e-06 1.0254597355030456e-06 1.8149247420126415e-06</occurRates>
+       </incrementalMFD>
+</characteristicFaultSource>
+   </sourceModel>
+   </nrml>
