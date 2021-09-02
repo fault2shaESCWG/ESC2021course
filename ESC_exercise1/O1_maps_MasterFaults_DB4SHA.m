@@ -335,4 +335,4 @@ end
 
 
 saveas(1,fullfile(pathout1,strcat('Maps_',char(outname),'DB4SHA.png')),'tiff')
-print(fullfile(pathout1,strcat('Maps_',char(outname),'DB4SHA.png')),'-dtiff','-r600');
+print(fullfile(pathout1,strcat('Maps_',char(outname),'DB4SHA.tiff')),'-dtiff','-r600');
