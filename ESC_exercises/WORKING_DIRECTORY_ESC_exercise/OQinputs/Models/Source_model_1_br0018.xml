@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="Source_model_1_03-Sep-2021">
+<simpleFaultSource id="19" name="ModelMultiFaultsTest_ValleDelSalto_2" tectonicRegion="Active_Shallow_Crust">
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.0756      42.2943
+       13.1284      42.2674
+       13.1565      42.2748
+       13.1806      42.2702
+       </gml:posList>
+       </gml:LineString>
+       <dip>55</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0020671544712550435 0.0015270608281000018 0.000855852051636644 0.0010523471640220216 0.0008353083431419819 0.0005274229639516979 0.0005431081656974442 0.00041653206440095094 0.00042531074863482094 0.00024087756123942399 0.0001648439788977765 4.426574480550623e-05 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</occurRates>
+       </incrementalMFD>
+</simpleFaultSource>
+   </sourceModel>
+   </nrml>

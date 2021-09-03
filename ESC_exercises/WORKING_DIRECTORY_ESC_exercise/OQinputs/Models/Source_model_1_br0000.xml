@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+   <sourceModel name="Source_model_1_03-Sep-2021">
+<simpleFaultSource id="1" name="ModelMultiFaultsTest_CampoFelice_1" tectonicRegion="Active_Shallow_Crust">
+     <simpleFaultGeometry>
+       <gml:LineString>
+       <gml:posList>
+       13.3901      42.2601
+       13.458      42.2224
+       13.4819      42.1927
+       </gml:posList>
+       </gml:LineString>
+       <dip>54</dip>
+       <upperSeismoDepth>0</upperSeismoDepth>
+       <lowerSeismoDepth>10</lowerSeismoDepth>
+     </simpleFaultGeometry>
+       <rake>-90</rake>
+       <magScaleRel>WC1994</magScaleRel>
+       <ruptAspectRatio>1.0</ruptAspectRatio>
+       <incrementalMFD minMag="5" binWidth="0.1">
+         <occurRates> 0.0010082767347851706 0.0013562300013791574 0.0011622714831067602 0.0007512751796644345 0.0005318620963558653 0.0006096192374105135 0.0004696577253105037 0.00037742358602580204 0.0002608336405432992 0.0002341979503635626 0.0001243495887534679 7.448926450977769e-05 1.7578120263857412e-05 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</occurRates>
+       </incrementalMFD>
+</simpleFaultSource>
+   </sourceModel>
+   </nrml>
